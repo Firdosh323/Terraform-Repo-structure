@@ -1,6 +1,6 @@
 terraform {
-	backend "gcs" {
-		bucket = "gcp-terraform-state"
-		prefix = "environments/stage"
-	}
+  backend "gcs" {
+    bucket = "gcp-terraform-state"
+    prefix = "environments/stage"
+  }
 }
