@@ -1,0 +1,12 @@
+project_id            = "my-gcp-project-prod"
+region                = "asia-south1"
+zone                  = "asia-south1-a"
+environment           = "prod"
+subnet_cidr           = "10.30.0.0/24"
+instance_name         = "prod-app-vm"
+machine_type          = "e2-standard-4"
+boot_image            = "debian-cloud/debian-12"
+service_account_email = null
+enable_gke            = true
+gke_node_count        = 3
+gke_machine_type      = "e2-standard-4"

@@ -1,0 +1,12 @@
+project_id            = "degree-learning"
+region                = "asia-south1"
+zone                  = "asia-south1-a"
+environment           = "dev"
+subnet_cidr           = "10.10.0.0/24"
+instance_name         = "dev-app-vm"
+machine_type          = "e2-medium"
+boot_image            = "debian-cloud/debian-12"
+service_account_email = null
+enable_gke            = false
+gke_node_count        = 1
+gke_machine_type      = "e2-medium"

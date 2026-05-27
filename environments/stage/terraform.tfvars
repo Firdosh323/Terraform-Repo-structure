@@ -1,0 +1,12 @@
+project_id            = "my-gcp-project-stage"
+region                = "asia-south1"
+zone                  = "asia-south1-a"
+environment           = "stage"
+subnet_cidr           = "10.20.0.0/24"
+instance_name         = "stage-app-vm"
+machine_type          = "e2-standard-2"
+boot_image            = "debian-cloud/debian-12"
+service_account_email = null
+enable_gke            = true
+gke_node_count        = 2
+gke_machine_type      = "e2-standard-2"
