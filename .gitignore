@@ -1,0 +1,25 @@
+# Terraform directories
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+
+# Terraform plan files
+*.tfplan
+tfplan
+
+# Terraform lock file (keep this if you want to pin provider versions)
+# .terraform.lock.hcl
+
+# Terraform variable files with secrets
+*.auto.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Crash log files
+crash.log
+crash.*.log
